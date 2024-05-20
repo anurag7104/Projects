@@ -1,0 +1,7 @@
+export {default as Homescreen } from "./HomeScreen"
+export {default as Authentication } from "./Authentication"
+export {default as Footer } from "./Footer"
+export {default as Homecontainer }  from "../Containers/Homecontainer"
+export {default as CreateResume} from"./CreateResume"
+export {default as UserProfile} from"./UserProfile"
+export {default as TemplateDesignPinDetails} from"./TemplateDesignPinDetails"

@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Mooli:regular);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  width:100rev;
+  overflow-x: hidden;
+  background: white;
+  height: auto;
+  font-family: 'Mooli';
+   font-size: 22px;
+
+}
+
+@layer{
+  .auth-section{
+    @apply w-full h-screen overflow-hidden flex flex-col items-start justify-start px-6 py-4 gap-6
+  }
+}
